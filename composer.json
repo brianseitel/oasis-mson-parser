@@ -1,0 +1,19 @@
+{
+    "name": "brianseitel/oasis-mson-parser",
+    "description": "An MSON parser for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Seitel",
+            "email": "brian@rentjuice.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oasis\\": "src/Oasis/"
+        }
+    },
+    "require": {
+      "php": ">=5.5.9"
+    }
+}
