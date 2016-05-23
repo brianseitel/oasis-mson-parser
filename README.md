@@ -29,7 +29,7 @@ function parse(string $data, $format = 'json')
 
 require 'vendor/autoload.php';
 
-$parser = Oasis\Parser::parse('# My API', 'json');
+$results = Oasis\Parser::parse('# My API', 'json');
 ```
 
 ### Parsing Result
