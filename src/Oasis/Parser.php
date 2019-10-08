@@ -39,7 +39,7 @@ class Parser
         if($escape_warnings) {
             $escape_warnings = ' 2> /dev/null';
         } else {
-i            $escape_warnings = '';
+            $escape_warnings = '';
         }
         $params = "drafter -f {$format} /tmp/input$escape_warnings";
 
